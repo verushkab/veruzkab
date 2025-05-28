@@ -39,3 +39,28 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Entorno virtual de Python
+venv/
+*.py[cod]
+__pycache__/
+
+# Archivos y carpetas ignoradas por otros lenguajes
+*.py
+*.pyc
+*.pyo
+*.pyd
+*.pth
+*.whl
+
+# Si tienes múltiples entornos virtuales
+env/
+.env/
+.venv/
+
+# Si usas VSCode
+.vscode/
+
+# Si usas Mac o Windows
+.DS_Store
+Thumbs.db
